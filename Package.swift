@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
         name: "SmoothPicker",
-        platforms: [.iOS(.v10)],
+        platforms: [.iOS(.v11)],
         products: [.library(name: "SmoothPicker",
                             targets: ["SmoothPicker"])],
         dependencies: [.package(url: "https://github.com/SnapKit/SnapKit", from: "5.0.1")],
